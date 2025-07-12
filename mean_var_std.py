@@ -17,5 +17,4 @@ def calculate(list):
                     'sum': [mtx.sum(axis = 0).tolist(), mtx.sum(axis = 1).tolist(), mtx.sum().tolist()]
     }
 
-
     return calculations
